@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="../css/font-awesome.min.css">
+
+<head>
+  <style>
+    .buttonload {
+      background-color: #4CAF50;
+      /* Green background */
+      border: none;
+      /* Remove borders */
+      color: white;
+      /* White text */
+      padding: 12px 24px;
+      /* Some padding */
+      font-size: 16px;
+      /* Set a font-size */
+      height: 50px;
+
+    }
+
+    /* Add a right margin to each icon */
+    .fa {
+      margin-left: -12px;
+      margin-right: 8px;
+    }
+
+    .container {
+      width: 200px;
+      height: 100px;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      background-image: url("../images/background.png");
+    }
+  </style>
+</head>
+
+<body>
+  <div id="download" class="container">
+    <button class="buttonload">
+      <i id="spinner" class="fa "></i>
+      <span id="text" style="text-align: center;">Download</span>
+    </button>
+  </div>
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script src="../js/popup.js"></script>
+</body>
+
+</html>
